@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>All American Software Solutions</title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,8 +23,8 @@
   <div class="homeArea" id="home">
     <div class="controlDiv">
       <div class="landingContainer">
-        <h1 class="headerTitle">All American Software Solutions</h1>
-        <p class="slogan"> Helping you navigate, create, and solve your companies digital needs.</p>
+        <h1 class="headerTitle">Home Area</h1>
+        <p class="slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
       </div>
       <div class="landingContainer">
       </div>
@@ -63,28 +62,26 @@
   </div>
 
   <div class="contactArea" id="contact">
-    <div class="controlDiv">
-      <form id="contact" action="" method="post">
-        <h3>Contact us for a quote</h3>
-        <fieldset>
-          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Email Address" type="email" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-        </fieldset>
-        <fieldset>
-          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-        </fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-        </fieldset>
-      </form>
+    <!-- <div class="controlDiv"> -->
+
+        <h1 class="areaTitle">Please fill out this form for a quote</h1>
+        <div class="contactContainer">
+
+        <form action="https://formspree.io/john.sheplerjr@gmail.com" method="post">
+               <label for="fname">First Name</label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+               <label for="email">Email Address</label>
+               <input type="text" id="email" name="email" placeholder="Your Email..">
+
+               <label for="subject">Message</label>
+               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+               <input type="submit" value="Submit">
+           </form>
     </div>
   </div>
 
