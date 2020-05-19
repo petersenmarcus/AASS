@@ -76,9 +76,9 @@ body {
 }
 .servicesArea {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 115px;
-  background-color:
+  background-color: rgb(225,225,225)
 }
 .contactArea {
   width: 100%;
@@ -255,5 +255,15 @@ fieldset {
   }
   .headerTitle {
     font-size: 80px;
+  }
+  .eachServiceContainer {
+    display: block;
+    min-height: 100vh;
+  }
+  .eachService {
+  margin:auto;
+  margin-bottom: 30px;
+  width: 700px;
+  height: 1000px;
   }
 }
