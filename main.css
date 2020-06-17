@@ -165,6 +165,10 @@ input[type=submit] {
     margin-top: 50px;
 }
 
+.servicesArea .areaTitle {
+    text-align: center;
+}
+
 @media (max-device-width: 499px) {
     .navbar {
         height: 200px;
@@ -254,7 +258,12 @@ input[type=submit] {
     }
     .imgContainer {
       height: 500px;
-
     }
-
+    .servicesArea .areaTitle {
+        font-size: 90px;
+        margin-top: 150px;
+    }
+    .serviceTitle {
+        font-size: 80px;
+    }
 }
