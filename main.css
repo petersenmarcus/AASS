@@ -115,8 +115,18 @@ body {
 
 .serviceTitle {
     text-align: center;
-    margin-top: 64px;
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
 }
+
+.serviceDescription {
+  text-align: center;
+  padding: 5px 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
 
 .serviceImage {
     width: 100%;
@@ -205,6 +215,7 @@ input[type=submit] {
     .eachServiceContainer {
         display: block;
         min-height: 100vh;
+        padding-bottom: 40px;
     }
 
     .eachService {
@@ -212,6 +223,7 @@ input[type=submit] {
         margin-bottom: 30px;
         width: 700px;
         height: 1000px;
+
     }
 
     .servicesArea {
@@ -265,5 +277,9 @@ input[type=submit] {
     }
     .serviceTitle {
         font-size: 80px;
+        margin-bottom: 0;
+    }
+    .serviceDescription{
+      font-size: 40px;
     }
 }
